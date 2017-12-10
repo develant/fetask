@@ -1,0 +1,183 @@
+body {
+	width: 375px;
+	height: 667px;
+	background-position: 8px 8px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+}
+
+div {
+	overflow-x: hidden;
+}
+
+div.backgroundColor {
+	background-color: #151723;
+}
+
+div.up {
+	position: relative;
+	bottom: 20px;
+}
+
+div.userpics {
+	padding-left: 16px;
+	position: relative;
+}
+
+h1 {
+	width: 325px;
+	height: 132px;
+	font-size: 40px;
+	color: rgb(255,255,255);
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	top: 240px;
+	padding-left: 16px;
+	position: absolute;
+}
+
+h2 {
+	width: 325px;
+	height: 74px;
+	font-size: 18px;
+	color: rgb(255,255,255);
+	font-family: "Lato", sans-serif;
+	font-weight: 300;
+	position: relative;
+	padding-left: 16px;
+	bottom: 30px;
+}
+
+span.by {
+	font-size: 16px;
+	color: rgb(255,255,255);
+	font-family: "Heebo", sans-serif;
+	font-weight: 300;
+	padding-left: 16px;
+}
+
+span.text {
+	font-size: 16px;
+	color: rgb(255,255,255);
+	font-family: "Lato";
+	font-weight: 400;
+	padding-left: 3px;
+}
+
+span.date {
+	font-size: 16px;
+	color: rgb(255,255,255);
+	font-family: "Lato";
+	font-weight: 400;
+	float: right;
+	padding-right: 16px;
+}
+
+.rectangle {
+	width: 404px;
+	height: 270px;
+	background-image: url("images/rectangle.png");
+	background-repeat: no-repeat;
+	position: absolute;
+	left: 0px;
+	top: 202px;
+}
+
+.image {
+	width: 375px;
+	height: 430px;
+}
+
+.arrow {
+	width: 9px;
+	height: 17px;
+	left: 30px;
+	top: 50px;
+	position: absolute;
+}
+
+.ellipse {
+	width: 43px;
+	height: 43px;
+	border-radius: 22px;
+	background-color: rgba(255,255,255,0.07058823529411765);
+	border: 0.5px solid rgba(255,255,255,0.07058823529411765);
+	position: absolute;
+	left: 14px;
+	top: 36px;
+}
+
+.line {
+	width: 343px;
+	height: 1px;
+	background-color: #ffffff;
+	display: block;
+  margin: auto;
+	position: relative;
+	bottom: 35px;
+}
+
+.likes {
+	left: 8px;
+	bottom: 8px;
+	position: relative;
+	width: 39px;
+	height: 28px;
+	border-radius: 14px;
+	padding: 7px 10px 7px 10px;
+	background-color: #fd51d9;
+}
+
+.likedThis {
+	bottom: 8px;
+	left: 10px;
+	position: relative;
+}
+
+.bottomBackground {
+	position: relative;
+	padding-top: 20px;
+}
+
+.icon {
+	position: relative;
+	left: 30px;
+	bottom: 40px;
+}
+
+.bottomLine {
+	position: relative;
+	top: 24px;
+}
+
+.relative {
+	position: relative;
+}
+
+.latoRegular {
+	font-size: 14px;
+	color: rgb(255,255,255);
+	font-family: "Lato";
+	font-weight: 400;
+}
+
+.overlay {
+	width: 375px;
+	height: 230px;
+	background-image: url("images/overlay.png");
+	position: absolute;
+	background-repeat: no-repeat;
+	left: 0px;
+	top: 308px;
+}
+
+.bigOverlay {
+	width: 375px;
+	height: 429px;
+	background-image: url("images/bigOverlay.png");
+	background-position: 0px 0px;
+	position: absolute;
+	left: 0px;
+	top: 0px;
+}

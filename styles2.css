@@ -1,0 +1,55 @@
+body {
+	width: 375px;
+	height: 667px;
+	background-position: 8px 16px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	background-image: url("images/background.png");
+	background-repeat: no-repeat;
+}
+
+h2 {
+  font-size: 18px;
+  color: rgb(255,255,255);
+  font-family: "Lato";
+  font-weight: 400;
+  left: 155px;
+	top: 40px;
+  position: absolute;
+}
+.arrow {
+	width: 9px;
+	height: 17px;
+	left: 30px;
+	top: 50px;
+	position: absolute;
+}
+
+.ellipse {
+	width: 43px;
+	height: 43px;
+	border-radius: 22px;
+	background-color: rgba(255,255,255,0.07058823529411765);
+	border: 0.5px solid rgba(255,255,255,0.07058823529411765);
+	position: absolute;
+	left: 14px;
+	top: 36px;
+}
+
+.chessIcon {
+  position: absolute;
+  left: 30px;
+  bottom: 50px;
+  top: 58px;
+  left: 240px;
+}
+
+.backgroundStatistic {
+  width: 375px;
+  height: 97px;
+  box-shadow: 0px 3px 12px rgba(0,0,0,0.5);
+  background-color: #151723;
+}
+
+.relative {
+	position: relative;
+}
